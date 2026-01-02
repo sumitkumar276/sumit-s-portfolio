@@ -18,16 +18,21 @@ function Router() {
   );
 }
 
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
+/**
+ * Marcus Chen Portfolio - Cyberpunk Minimalist Theme
+ * 
+ * Theme Configuration:
+ * - defaultTheme: "dark" - Pure black background with neon green accents
+ * - Color Palette: Black (#000000), Neon Green (#00FF41), Slate Gray (#475569)
+ * - Typography: IBM Plex Mono (headings), Inter (body)
+ * - Design: Minimal, high-contrast, geometric accents
+ */
 
 function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
         // switchable
       >
         <TooltipProvider>

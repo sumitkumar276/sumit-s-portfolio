@@ -19,7 +19,7 @@ function Router() {
 }
 
 /**
- * Marcus Chen Portfolio - Cyberpunk Minimalist Theme
+ * Sumit Kumar Prajapati Portfolio - Cyberpunk Minimalist Theme
  * 
  * Theme Configuration:
  * - defaultTheme: "dark" - Pure black background with neon green accents

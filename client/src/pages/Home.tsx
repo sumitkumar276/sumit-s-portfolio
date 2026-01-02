@@ -4,7 +4,7 @@ import { Github, ExternalLink, Mail, Download, Code2, Database, Zap, GitBranch }
 import { useState } from "react";
 
 /**
- * Marcus Chen Portfolio - Cyberpunk Minimalist Design
+ * Sumit Kumar Prajapati Portfolio - Cyberpunk Minimalist Design
  * 
  * Design Philosophy:
  * - Pure black background (#000000) with neon green (#00FF41) accents
@@ -112,7 +112,7 @@ export default function Home() {
             <div className="space-y-8">
               <div>
                 <h1 className="text-5xl md:text-6xl font-mono font-bold mb-2 neon-glow">
-                  Marcus Chen
+                  Sumit Kumar Prajapati
                 </h1>
                 <div className="h-1 w-32 bg-primary mb-6" />
                 <p className="text-xl md:text-2xl text-gray-300 font-light">
@@ -332,9 +332,9 @@ export default function Home() {
           <div className="mt-12 pt-12 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-2">
               <p className="text-gray-400 text-sm font-mono">Or reach out directly:</p>
-              <a href="mailto:marcus@example.com" className="text-primary hover:text-primary/80 transition-colors font-mono">
-                marcus@example.com
-              </a>
+                <a href="mailto:sumit@example.com" className="text-primary hover:text-primary/80 transition-colors font-mono">
+                  sumit@example.com
+                </a>
             </div>
             <a href="#" download className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors font-mono">
               <Download className="w-5 h-5" />
@@ -348,7 +348,7 @@ export default function Home() {
       <footer className="py-8 border-t border-slate-800 bg-black">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-gray-500 text-sm font-mono">© 2024 Marcus Chen. All rights reserved.</p>
+            <p className="text-gray-500 text-sm font-mono">© 2024 Sumit Kumar Prajapati. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
